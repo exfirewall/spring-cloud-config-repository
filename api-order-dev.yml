@@ -1,6 +1,9 @@
 server:
   port: 8081
 
+spring:
+  profiles: dev
+  
 custom:
   check-text: hello, this is test
   
