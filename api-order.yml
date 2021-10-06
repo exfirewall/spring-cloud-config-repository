@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+custom:
+  check-text: hello, this is test
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh"
